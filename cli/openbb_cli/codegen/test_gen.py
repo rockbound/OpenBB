@@ -307,3 +307,5 @@ def _snake(camel: str) -> str:
             out.append("_")
         out.append(ch.lower())
     return "".join(out)
+
+# CI check: verify lint workflow can fetch base branch v5 from this fork.
